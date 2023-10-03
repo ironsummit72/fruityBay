@@ -32,15 +32,22 @@
   font-size: larger;
   font-weight: 640;
 }
+.nav-links-selected{
+  text-decoration: none;
+  background-color:#e3f8a1;
+  color: #77c61d;
+  font-size: larger;
+  font-weight: 640;
+  padding: 8px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
 .buttons{
     display: flex;
     align-items: center;
     justify-content: space-around;
     width: 15%;
     height: 60%;
-
-    
-
 }
 .login{
     text-decoration: none;
