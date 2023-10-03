@@ -1,6 +1,6 @@
 import React from 'react'
 import "./header.css"
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 function Header() {
   return (
@@ -12,16 +12,16 @@ function Header() {
   </Link>
   <ul className='nav-link-list'>
     <li>
-      <Link className='nav-links' to={'/'}>Home</Link>
+      <NavLink className={({isActive})=>`${isActive ? "nav-links-selected":"nav-links"}`} to={'/'}>Home</NavLink>
     </li>
     <li>
-      <Link className='nav-links' to={'/about'}>About</Link>
+    <NavLink className={({isActive})=>`${isActive ? "nav-links-selected":"nav-links"}`} to={'/about'}>About</NavLink>
     </li>
     <li>
-      <Link className='nav-links' to={'/contact'}>Contact</Link>
+    <NavLink className={({isActive})=>`${isActive ? "nav-links-selected":"nav-links"}`} to={'/contact'}>Contact</NavLink>
     </li>
     <li>
-      <Link className='nav-links' to={'/github'}>Github</Link>
+    <NavLink className={({isActive})=>`${isActive ? "nav-links-selected":"nav-links"}`} to={'/github'}>Github</NavLink>
     </li>
   </ul>
   <div className="buttons">
