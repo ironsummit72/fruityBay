@@ -1,5 +1,6 @@
 import React from "react";
 import "./development.css";
+import Footer from "../footer/Footer";
 
 function Underdevelopment() {
   return (
@@ -9,7 +10,9 @@ function Underdevelopment() {
           <h2 className="heading">Website Under Construction</h2>
       </div>
       <p className="description_dev">Our page is under development, working hard to bring you an enhanced experience soon. Stay tuned for exciting updates and improvements. Thank you for your patience!</p>
+      <Footer/>
     </div>
+
   );
 }
 
