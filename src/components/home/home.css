@@ -1,0 +1,33 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    
+}
+.home_container{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    margin-left:50px;
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.sec1{
+    width: 30%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.illistrations{
+    width: 100%;
+}
+.description{
+    width: 40%;
+    line-height: 1.9;
+    font-size: large;
+    font-weight: 510;
+}
